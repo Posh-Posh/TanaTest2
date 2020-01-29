@@ -1,0 +1,44 @@
+[ {
+  "name":"Présence d'un titre pour chaque cadre en ligne",
+  "type":"failed",
+  "data":[
+     {
+        "status":"failed",
+        "outer":"<iframe src=\"http://www.oceaneconsulting.com/\" style=\"width:200px;height:300px\"></iframe>",
+        "xpath":"/html[1]/body[1]/header[1]/main[1][@class=\"sample-container\"]/div[5][@id=\"crit-2-1\"]/div[1][@id=\"test-2-1-1\"]/div[2][@class=\"sample test_false\"]/iframe[1]",
+        "role":{
+           "explicit":""
+        },
+        "accessibleName":null,
+        "canBeReachedUsingKeyboardWith":[
+           "html:iframe"
+        ],
+        "isNotVisibleDueTo":[
+        ],
+        "isNotExposedDueTo":[
+        ]
+     }
+  ],
+  "tags":[
+     "a11y",
+     "frames",
+     "q5y"
+  ],
+  "lang":"fr",
+  "explanation":"Des éléments iframe sans attribut title sont présents dans cette page.",
+  "ressources":{
+     "rgaa3":[
+        "2.1.1"
+     ],
+     "rgaa4":[
+        "2.1.1"
+     ],
+     "pidila":[
+        "Pi-357"
+     ],
+     "opquast":[
+        "145"
+     ]
+  }
+}
+]

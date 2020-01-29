@@ -1,38 +1,100 @@
-.App {
-  text-align: center;
+.app {
+  width: 90%;
+  margin: auto;
+  font-family: sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1 {
+  font-weight: 500;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+main {
+  border: 1px solid lightgrey;
+  padding: 0 1em 1em 1em;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+h2 span {
+  border-radius: 50%;
+  background-color: red;
+  padding: .5em .8em;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+h2 {
+  font-weight: 100;
+  font-size: 1,2em;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.explanation {
+font-style: italic;
+}
+
+.ressources {
+  margin-left: 1em;
+}
+
+.version {
+  color: #20c4dd;
+}
+
+section {
+  display: flex;
+  margin-left: 2em;
+}
+
+.rectangle {
+  height: 150px;
+  width: 280px;
+  background-color: lightgray;
+  text-align: center;
+}
+
+.rectangle p {
+ color: gray;
+ position: relative;
+ top: 30%;
+}
+
+.frame {
+  margin-left: 1em;
+  border: 1px solid grey;
+  padding: 0 .5em;
+  width: 100%;
+}
+
+.header {
+  padding-bottom: em;
+  border-bottom: 1px solid lightgray;
+  display: flex;
+  justify-content: space-between;
+}
+
+.outer {
+  color: fuchsia;
+}
+
+.circle {
+  height: 2.5em;
+  width: 2.5em;
+  border-radius: 50%;
+  background-color: red;
+  margin-top: .3em;
+}
+
+h4 {
+  font-size: 1em;
+  font-weight: normal;
+}
+
+.aria {
+  list-style: none;
+  padding-left: 0;
+}
+
+.aria li {
+  margin-bottom: 1em;
+}
+
+.detail {
+  font-weight: bold;
 }
